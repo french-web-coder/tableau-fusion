@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- On va creer notre tableau -->
+    <table>
+      <thead>
+        <tr>
+          <!-- on va faire en sorte qu'il occupe toute la place -->
+          <!-- Celui la concerne la ligne 1 -->
+          <th colspan="6">emploi du temps</th>
+        </tr>
+        <tr>
+          <!-- Celui la concerne la ligne 2 -->
+          <th>heures</th>
+          <th>lundi</th>
+          <th>mardi</th>
+          <th>mercredi</th>
+          <th>jeudi</th>
+          <th>vendredi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Celui la concerne la ligne 3 -->
+          <td class="horaire">8h</td>
+          <td colspan="1">math</td>
+          <!-- Il occupe 5 ligne  -->
+          <td rowspan="5">sport</td>
+          <!-- Lui 3 ligne  -->
+          <td rowspan="3">science</td>
+          <td rowspan="5">informatique</td>
+          <td rowspan="5">libre</td>
+        </tr>
+
+        <!-- Celui la concerne la ligne 4 -->
+        <tr>
+          <td class="horaire">9h</td>
+          <td>music</td>
+        </tr>
+
+        <!-- Celui la concerne la ligne 5 -->
+        <tr>
+          <td class="horaire">10h</td>
+          <td>perm</td>
+        </tr>
+
+        <!-- Celui la concerne la ligne 6 -->
+        <tr>
+          <td class="horaire">11h</td>
+          <td>francais</td>
+          <td rowspan="2">physique</td>
+        </tr>
+
+        <!-- Celui la concerne la ligne 7 -->
+        <tr>
+          <td class="horaire">12h</td>
+          <td>histoire</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+body {
+  /* On choisi notre arriere-plan */
+  background-image: url(./img.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+table {
+  background-color: white;
+  /* on centre notre tableau  */
+  margin: auto;
+  width: 90%;
+  height: 400px;
+  /* On transforme les lettre en majuscules */
+  text-transform: uppercase;
+}
+/* On va ajouter une couleur pour nos cellules */
+thead tr th {
+  background-color: #d2e244c0;
+  padding: 15px;
+}
+tbody tr td {
+  text-align: center;
+  background-color: #55c3ba;
+  padding: 10px;
+}
+.horaire {
+  /* On ajoute un couleur uniquement a nos horraire */
+  background-color: darkgoldenrod;
+}
